@@ -34,6 +34,7 @@ body {
     /* max-width: 1320px; */
     height: 600px;
     border-radius: 16px;
+    
 
 }
 
@@ -103,7 +104,6 @@ body {
 
 .welcome {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("image/Vectorrr.png");
-    /* max-width: 1320px; */
     height: 600px;
     background-size: 100% 100%;
     display: flex;
@@ -277,3 +277,157 @@ button.join {
     height: 140px;
     flex-shrink: 0;
 }
+
+/* 6th part style */
+.container1 {
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.saleText h6 {
+    color: #070211;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.saleText h2 span {
+    color: #F00;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.saleText h2 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.saleText p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.Salepic {
+    position: relative;
+    z-index: -1;
+}
+
+.salePic-container {
+    display: flex;
+    overflow: auto;
+}
+
+.salePic2 {
+    /* width: 429px;
+    height: 433px; */
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    margin-left: 714px;
+}
+
+.salePic3 {
+    /* width: 1320px;
+    height: 229px; */
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    margin-top: 74px;
+    max-width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.salePic1 {
+    margin-left: 542px;
+    margin-top: 53px;
+}
+
+.salePic0 {
+    position: absolute;
+    float: left;
+}
+
+/* 7th part style */
+.container2 {
+    margin-top: 120px;
+}
+
+.gift-text {
+    text-align: left;
+}
+
+.gift-text h6 {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gift-text h2 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.gift-pic {
+    display: grid;
+    /* justify-content: space-between;
+    align-items: center; */
+
+}
+
+.gift-pic img {
+    width: 362px;
+    height: 362px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 8px;
+}
+
+/* 8th part style */
+.container3 {
+    margin-top: 120px;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.subscribe {}
+
+.subscribe img {
+    margin: 80px 569px 0 564px;
+    width: 150px;
+    height: 150px;
+
+}
+
+
+ggghh   [[''KJHGGHBNNJKJKJJJJJJJJHGHHUHJJJKJJKJKIKIYTRTFFFUYTRFRTTYY6YYY]]
