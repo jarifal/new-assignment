@@ -10,7 +10,7 @@ body {
 * {
     margin: 0;
     padding: 0;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
 /* banner related style */
@@ -34,7 +34,7 @@ body {
     /* max-width: 1320px; */
     height: 600px;
     border-radius: 16px;
-    
+
 
 }
 
@@ -275,7 +275,6 @@ button.join {
 .best-year .group96 {
     width: 140px;
     height: 140px;
-    flex-shrink: 0;
 }
 
 /* 6th part style */
@@ -321,17 +320,20 @@ button.join {
 
 .Salepic {
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .salePic-container {
     display: flex;
     overflow: auto;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .salePic2 {
-    /* width: 429px;
-    height: 433px; */
+    width: 429px;
+    height: 433px;
     border-radius: 16px 16px 0px 0px;
     background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
     position: relative;
@@ -342,29 +344,35 @@ button.join {
 }
 
 .salePic3 {
-    /* width: 1320px;
-    height: 229px; */
+    width: 1320px;
+    height: 229px;
     border-radius: 16px 0px 16px 16px;
     background: #F00;
-    margin-top: 74px;
-    max-width: 100%;
+    margin-top: -5px;
+    width: 100%;
     position: relative;
     z-index: -1;
 }
 
 .salePic1 {
-    margin-left: 542px;
+    margin-left: 288px;
     margin-top: 53px;
+    margin-bottom: 84px;
 }
 
 .salePic0 {
     position: absolute;
     float: left;
+    height: 500px;
+    margin-top: 343px;
+    margin-right: 512px;
 }
 
 /* 7th part style */
 .container2 {
     margin-top: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .gift-text {
@@ -385,6 +393,7 @@ button.join {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
+    
 }
 
 .gift-text p {
@@ -395,39 +404,203 @@ button.join {
     line-height: 32px;
 }
 
-.gift-pic {
-    display: grid;
-    /* justify-content: space-between;
-    align-items: center; */
+.colum {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.gift-pic img {
-    width: 362px;
-    height: 362px;
-    border-radius: 16px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+.colum-img {
+    width: 367px;
+    height: 400px;
     margin: 8px;
+    border-radius: 16px;
+    transition: 0.5s ease;
+}
+
+.colum-img:hover {
+    border: 4px solid green;
 }
 
 /* 8th part style */
 .container3 {
     margin-top: 120px;
-    border-radius: 16px;
-    background: lightgray 50% / cover no-repeat;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+
 
 }
 
-.subscribe {}
+.subscribe {
+    max-width: 100%;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe h2 {
+    margin-top: 40px;
+    color: #070211;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
 
 .subscribe img {
-    margin: 80px 569px 0 564px;
-    width: 150px;
-    height: 150px;
+    margin-top: 80px;
+}
+
+.form .search {
+    margin-top: 48px;
+    /* width: 648px;
+    height: 72px; */
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    border: none;
+    padding: 25px 477px 25px 30px;
+}
+
+.form .btn {
+    /* height: 72px;
+    width: 210px; */
+    padding: 24px 56px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 48px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: absolute;
+    margin-left: 439px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+/* 9th part style */
+
+.container4 {
+    max-width: 100%;
+    background: #070211;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.follow {
+    
+}
+
+.contact-text {
+    display: flex;
+    justify-content: space-around;
 
 }
 
+.contact-p {
+    margin-top: 120px;
+    margin-left: 140px;
+}
 
-ggghh   [[''KJHGGHBNNJKJKJJJJJJJJHGHHUHJJJKJJKJKIKIYTRTFFFUYTRFRTTYY6YYY]]
+.contact-text p {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-devide {
+    margin-left: 422px;
+    margin-top: 120px;
+    margin-right: 275px;
+
+}
+
+.hr {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.contact img {
+    margin-left: 24px;
+}
+
+.contact {
+    margin-left: -12px;
+    display: flex;
+    justify-content: center;
+}
+
+.hr2 {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon {
+    display: flex;
+}
+.icon1 {
+    display: flex;
+}
+.icon-pic {
+    margin-right: 16px;
+}
+.icon-pic1 {
+    margin-right: 16px;
+}
+
+.last-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-text {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.last-text1 {
+    margin-left: 140px;
+    padding: 120px;
+}
+
+.last-text2 {
+    margin-right: 140px;
+    margin-left: 880px;
+    padding: 120px;
+}
